@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+/* Admin Dashboard Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d572c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Navigation links */
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Welcome heading */
+h1 {
+    color: #2d572c;
+    margin-top: 20px;
+}
+
+/* Sub-heading */
+h2 {
+    color: #3a7d44;
+    margin-bottom: 15px;
+}
+
+/* Dashboard box */
+.dashboard {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #2d572c;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu buttons */
+.dashboard a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #3a7d44;
+    padding: 12px 20px;
+    margin: 10px auto;
+    width: 250px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.dashboard a:hover {
+    background-color: #2d572c;
+}
+
+/* Logout button style */
+.logout {
+    background-color: #e63946 !important;
+}
+
+.logout:hover {
+    background-color: #c1121f !important;
+}
+
+/* Cardamom image */
+img {
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
